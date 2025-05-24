@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f9f6f2;
+    color: #2d2d2d;
+}
+header {
+    background: #7c4f1d;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ffd700;
+}
+.hero {
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+    color: #fff;
+    padding: 4rem 0 3rem 0;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px #000a;
+}
+.hero p {
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 6px #000a;
+}
+section {
+    padding: 2.5rem 0;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+#about h3, #contact h3 {
+    color: #7c4f1d;
+    margin-bottom: 0.5rem;
+}
+footer {
+    background: #2d2d2d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.95rem;
+    margin-top: 2rem;
+}
